@@ -47,7 +47,7 @@ View the required installations in the present directory
 //git init 
 
 #git add - signifies there will be upcoming changes in the working folder
-//git add.
+//git add .
 
 #Commit and commit identifier
 //git commit -m "Started project"
@@ -83,4 +83,24 @@ Day 4
 - Model - Data access layer [ database, modelling data, database layer]
 - template - Presentation layer
 - View - Business logic
+
+python manage.py migrate
+
+python manage.py createsuperuser - Creates an account for the django admin 
+
+post model made models.py
+category model made models.py
+
+python makemigrations
+
+admin.py changes - admin.site(post)
+admin.py changes - admin.site(category)
+
+NOTE: Afer making changes in the database 
+- python manage.py makemigrations
+#creates migration files in migrations.py
+
+-python manage.py migrate
+#actually edits the db.sqlite3 database
+
 
