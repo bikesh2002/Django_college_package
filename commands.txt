@@ -1,0 +1,86 @@
+Day 1
+
+# Open a folder -  name a project
+
+# Create virtual environment
+python -m venv venv_name
+
+# Activate virtual environment
+.\venv\scripts\activate
+
+# Install django
+pip install Django
+
+# Start new project
+django-admin startproject project_name -> blogs
+
+# Change the directory - Django-> blogs -> within blogs manage.py
+// cd blogs
+// ls -> View the files in the present directory
+-Run manage.py ->python manage.py runserver
+
+# Port address 
+// 127.0.0.1:8000
+
+
+Day 2
+# Activate virtual environment django -> 
+.\django\scripts\activate
+
+View the required installations in the present directory
+// pip freeze
+
+# For current project blogs
+# Installed packets are encapsulated in a text file called requirement.txt for working of other programmers and instead of sharing the whole virtual environment in github simply the required packages are shared
+// pip freeze > requirements.txt
+
+# Installing packages from requirements.txt 
+//pip install -r requirements.txt
+
+# Create a .gitignore file in blogs as a sibling of manage.py
+# Search git ignore and copy the contents from web and paste to the .gitignore file ->   .Signifies that the file is hidden in the file explorer
+
+#Run
+// .gitignore django
+
+#Start git
+//git init 
+
+#git add - signifies there will be upcoming changes in the working folder
+//git add.
+
+#Commit and commit identifier
+//git commit -m "Started project"
+
+# Create a new app within blogs
+// django-admin startapp post (-> Post - appname)
+
+# Run server for launching the app
+// python manage.py runserver
+
+# Status of git - Signifies at what time what has been added
+//git status
+
+#separately add to git 
+// git add blogs/urls.py
+
+# histroy of commits - commit hash, commit author, commit time
+// git log 
+
+Day 3
+- Replaced HTTP response by actual HTML pages 
+- URLs must be added in post->url.py 
+- In path views.py must be mentioned
+- In views.py the functions are defined and HTML pages are added for different views
+
+Day 4
+- Templates generalized for the whole project
+- For common header and footer same settings is configured in base.html and these changes are applied across all templates in post-> Templates -> all html files
+- Static files CSS is included in <head> link using special syntax unique to django
+
+- DJANGO is based on MVT design pattern 
+- Model view template
+- Model - Data access layer [ database, modelling data, database layer]
+- template - Presentation layer
+- View - Business logic
+
