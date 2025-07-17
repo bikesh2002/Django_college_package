@@ -47,6 +47,7 @@ View the required installations in the present directory
 //git init 
 
 #git add - signifies there will be upcoming changes in the working folder
+#Must make git add before git commmit
 //git add .
 
 #Commit and commit identifier
