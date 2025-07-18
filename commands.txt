@@ -105,3 +105,4 @@ NOTE: Afer making changes in the database
 #actually edits the db.sqlite3 database
 
 
+ctrl-shift-f : to look for any text within VS code
