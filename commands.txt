@@ -106,3 +106,10 @@ NOTE: Afer making changes in the database
 
 
 ctrl-shift-f : to look for any text within VS code
+
+alt+tab - windows
+windows - windows explore
+ctrl+x - cut whole line
+ctrl+c - copy whole line
+ctrl + shift+ arrow - select text without mouse
+HTML forms
